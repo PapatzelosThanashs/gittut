@@ -1,0 +1,15 @@
+node{
+
+
+
+    stage('one'){
+
+    }
+
+    stage('two'){
+        
+    }
+
+
+
+}
