@@ -1,0 +1,14 @@
+node{
+
+    stage('one'){
+        echo "this is ${env.BRANCH_NAME}"
+
+    }
+
+    stage('two'){
+
+    }
+
+
+
+}
