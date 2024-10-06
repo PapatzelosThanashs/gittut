@@ -3,11 +3,11 @@ node{
 
 
     stage('one'){
-
+        git 'https://github.com/PapatzelosThanashs/gittut.git'
     }
 
     stage('two'){
-        
+        echo "hello from master branch"
     }
 
 
