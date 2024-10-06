@@ -7,7 +7,7 @@ node{
     }
 
     stage('two'){
-        echo "hello from master branch"
+        echo "hello from dev branch"
     }
 
 
