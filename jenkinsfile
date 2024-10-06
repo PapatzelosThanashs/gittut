@@ -1,6 +1,6 @@
 node{
 
-
+    try{
 
     stage('one'){
         echo "i use this agent from master branch rn , print env.BRANCH_NAME ${env.BRANCH_NAME}"
@@ -8,8 +8,12 @@ node{
 
     stage('two'){
         echo "hello from dev branch"
+        //generating error
+        sh 'exit 1' 
     }
-
+    }catch(Exception e){
+        echo "Something went wrong. ${e.message}"
+    }
 
 
 }
