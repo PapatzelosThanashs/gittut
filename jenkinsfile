@@ -3,7 +3,7 @@ node{
 
 
     stage('one'){
-        git 'https://github.com/PapatzelosThanashs/gittut.git'
+        echo "i use this agent from master branch rn , print env.BRANCH_NAME ${env.BRANCH_NAME}"
     }
 
     stage('two'){
