@@ -16,13 +16,3 @@ testing -am
 
 
 added some features from dev branch
-1
-2
-3
-4th
-5th
-123
-567
-ok
-ok then
-ok
